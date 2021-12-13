@@ -48,12 +48,7 @@ const Header = () => {
             className='cursor-pointer hover:text-yellow-100 pl-2'>
             PROJECTS{" "}
           </li>
-          <span className='cursor-pointer hover:text-yellow-100 px-1'>/</span>
-          <li
-            onClick={() => handleImageClick("blog")}
-            className='cursor-pointer hover:text-yellow-100 pl-2'>
-            BLOG
-          </li>
+          
           <span className='cursor-pointer hover:text-yellow-100 px-1'>/</span>
           <li
             onClick={() => handleImageClick("contact")}
@@ -64,7 +59,7 @@ const Header = () => {
       </Scrollspy>
       <a
         target="_blank"
-        href='https://www.google.com'
+        href='https://docs.google.com/document/d/1iJaD6VaGs1zdcGeZOHjw6CJqaV8sgyLJP61LQBAVh9c/edit?usp=sharing'
         rel='noreferrer'
         className='invisible lg:visible my-3 font-Comfortaa font-bold cursor-pointer text-lg hover:text-yellow-100'>
         CV

@@ -43,20 +43,11 @@ const About = () => {
         src={"/Photo.jpeg"}
       />
       <div className='px-4 lg:px-0 mt-4 lg:mt-0 lg:pl-12 font-sans '>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-        dignissim justo non lacinia dapibus. Etiam non ipsum diam. Mauris mollis
-        nunc mi, ac eleifend metus eleifend et. <br />
-        Phasellus ultricies non mauris id blandit. Proin non consequat mauris.
-        Duis commodo augue eu leo vulputate, a dictum ligula condimentum.
-        <br /> eu velit tincidunt, id elementum tellus congue. Nam dictum
-        consequat mi eget efficitur.
-        <br /> Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam
-        semper placerat purus, ut sollicitudin augue elementum sed. Nam a sem
-        egestas, cursus quam. Mauris mollis nunc mi, ac eleifend metus eleifend
-        et. <br />
-        Phasellus ultricies non mauris id blandit. Proin non consequat mauris.
-        Duis commodo augue eu leo vulputate, a dictum ligula condimentum. eu
-        velit tincidunt, id elementum tellus congue. Nulla dictum ipsum N
+      Hey! I am an upcoming senior at Boston University majoring in Computer Science. 
+      I am very passionate about working on meaningful projects that help humanity in the long term. 
+      I would love to work on Deep Learning models that help the Healthcare industry. 
+      I am also open to implementing these applications to other industries. 
+      I am proficient in Python, Java and C++ and love participating in hackathons and doing competitive coding.
       </div>
     </div>
   );

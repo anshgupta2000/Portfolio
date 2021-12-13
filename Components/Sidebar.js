@@ -33,11 +33,7 @@ const Sidebar = ({ sideDrawerHandler }) => {
             className='cursor-pointer my-4 text-2xl hover:text-yellow-100'>
             PROJECTS
           </li>
-          <li
-            onClick={() => handleImageClick("blog")}
-            className='cursor-pointer my-4 text-2xl hover:text-yellow-100'>
-            BLOG
-          </li>
+          
           <li
             onClick={() => handleImageClick("contact")}
             className='cursor-pointer my-4 text-2xl hover:text-yellow-100'>
@@ -46,7 +42,13 @@ const Sidebar = ({ sideDrawerHandler }) => {
         </ul>
       </Scrollspy>
       <div className='my-3 font-Comfortaa flex justify-center rounded mx-24 border-2 border-yellow-100 py-2 font-bold cursor-pointer text-lg hover:text-yellow-100'>
-        Resume
+      <a
+        target="_blank"
+        href='https://docs.google.com/document/d/1iJaD6VaGs1zdcGeZOHjw6CJqaV8sgyLJP61LQBAVh9c/edit?usp=sharing'
+        rel='noreferrer'
+        >
+        CV
+      </a>
       </div>
     </div>
   );

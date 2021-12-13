@@ -24,10 +24,10 @@ const Contact = () => {
           or drop a DM on
         </div>
         <div className='flex my-8'>
-          <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+          <a href='https://www.instagram.com/anshgupta610/' target='_blank' rel='noreferrer'>
             <FiInstagram className='mr-10' size={45} />
           </a>
-          <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+          <a href='https://www.linkedin.com/in/ansh-gupta-bucs/' target='_blank' rel='noreferrer'>
             <FiLinkedin className='mr-10' size={45} />
           </a>
         </div>
@@ -35,7 +35,9 @@ const Contact = () => {
           and follow my work on
         </div>
         <div>
+        <a href='https://github.com/anshgupta2000/' target='_blank' rel='noreferrer'>
           <FiGithub className='mt-10' size={45} />
+          </a>
         </div>
       </div>
       <div className='mt-44 text-black font-bold bg-yellow-100 h-16 flex justify-center items-center'>

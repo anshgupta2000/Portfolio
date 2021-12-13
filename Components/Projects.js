@@ -18,7 +18,6 @@ const Projects = () => {
             key={index}
             reverse={index % 2 === 0 ? false : true}
             title={Object.keys(Data)[index]}
-            image={element.imageLink}
             githubLink={element.githubLink}
             description={element.description}
           />

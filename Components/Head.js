@@ -9,7 +9,7 @@ const Head = () => {
     <div className='text-white mt-32'>
       <div className='w-5/6 lg:w-5/12'>
         <div className='flex font-sans ml-10 lg:ml-0 justify-end text-4xl text-yellow-100 mb-3'>
-          machine learning engineer
+          Computer Science Senior 
         </div>
         <div className='w-full border-2 bg-yellow-100 border-yellow-100' />
       </div>
@@ -17,19 +17,19 @@ const Head = () => {
         <div className='invisible lg:visible absolute left-44'>
           <div className='w-1 bg-yellow-100 h-36 border-yellow-100 border'></div>
           <div className='-ml-2 my-5 '>
-            <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+            <a href='https://twitter.com/AnshGupta610' target='_blank' rel='noreferrer'>
               <FiTwitter size={25} />
             </a>
             <br />
-            <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+            <a href='https://www.linkedin.com/in/ansh-gupta-bucs/' target='_blank' rel='noreferrer'>
               <FiLinkedin size={25} />
             </a>
             <br />
-            <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+            <a href='https://www.instagram.com/anshgupta610/' target='_blank' rel='noreferrer'>
               <FiInstagram size={25} />
             </a>
             <br />
-            <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/anshgupta2000/' target='_blank' rel='noreferrer'>
               <FiGithub size={25} />
             </a>
           </div>
@@ -50,7 +50,7 @@ const Head = () => {
           <div className='w-full'>
             <div className='w-full border-2 bg-yellow-100 border-yellow-100' />
             <div className='font-sans text-4xl text-yellow-100 mt-3'>
-              based in India
+              Boston University
             </div>
           </div>
         </div>

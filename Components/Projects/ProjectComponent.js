@@ -19,9 +19,7 @@ const ProjectComponent = ({
           ? "flex flex-col lg:flex-row-reverse"
           : "flex lg:flex-row flex-col"
       } my-14  `}>
-      <div className=''>
-        <Image width={"580px"} height={"380px"} alt='Project' src={image} />
-      </div>
+      
       <div
         className={`${
           reverse ? "lg:mr-8 mx-5 lg:mx-0 " : "lg:ml-28 mx-5 lg:mx-0 "
