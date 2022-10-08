@@ -1,41 +1,53 @@
 /** @format */
 
 export const Data = {
+  "Data Science Intern at Ruby Inc.": {
+    Duration: "June 2022 - Aug 2022",
+    points: [
+      "Solely developed and optimized LSTM models using DILATE for univariate time series forecasting after reading 16 research papers to predict product prices and achieved 94.1% accuracy.",
+      "Designed plots in Pycharm using Matplotlib for timestamp vs price and other analyses for 5M+ products for recommending personalized discount offers to users.",
+      "Ingested over 75 gb data using ElasticSearch and visualized using Kibana to accelerate decision making.",
+    ],
+  },
   "Computational Biology Research Assistant at The Johns Hopkins University": {
-    Duration: "April 2021 - Present",
+    Duration: "April 2021 - April 2022",
     points: [
-      "Responsible for bioinformatics analysis of next generation sequencing and array based datasets using: Cloud-computing environments via unix and shell scripting, R Statistical Platform, Python, Galaxy bioinformatics interface, UC Santa Cruz Genome Browser",
-      "Experience in Next Generation Sequencing analysis including variant calling, RNA-seq, WGBS and ChIP-seq",
+      "Performed bioinformatic analyses of epigenetic effects to identify breast cancer with 96.38% accuracy.",
+      "Utilized ML algorithms on genomic data: random forests, support vector machines, and neural networks and reduced prediction error to 2% from 60%.",
     ],
   },
-  "Deputy Director of Academic Affairs at Boston University Student Government": {
-    Duration: "May 2021 - Present",
-    points: [
-      "Facilitate and lead academic initiatives to improve student experience.",
-      "Conduct and preside over weekly meetings with a team of liaisons.",
-      "Work alongside other Student Government leaders, faculty, and administration to achieve initiative goals.",
-    ],
-  },
+  "Deputy Director of Academic Affairs at Boston University Student Government":
+    {
+      Duration: "May 2021 - April 2022",
+      points: [
+        "Facilitated and led a team of 20 elected represtatives to improve student academic experience.",
+        "Conducted and presided over weekly meetings with a team of liaisons.",
+        "Worked alongside other Student Government leaders, faculty, and administration to achieve initiative goals.",
+      ],
+    },
   "Computer Vision Intern at SportsVisio": {
     Duration: "May 2021 - July 2021",
     points: [
-      "Sports Visio is a startup that uses computer vision methods to draw out useful analytics for basketball games.",
-      "Co-developed an MVP algorithm for Person Action Detection called Detectron 2.",
-      "Implemented Image Segmentation for Jersey Number Identification for basketball players.",
+      "Sports Visio is a startup that uses computer vision methods to draw out useful analytics for basketball games",
+      "Engineered image segmentation model to identify jersey numbers of basketball players and attained 88% accuracy",
+      "Built the core action recognition algorithm using computer vision for dribbling, shooting, passing etc. in basketball",
+      "Generated 22 real-time basketball statistics (assists, throw angle, etc.) to improve player performance by at least 10%",
     ],
   },
-    "Machine Learning Intern at Irident Inc.": {
-      Duration: "Jan 2021 - April 2021",
-      points: [
-        "Irident Inc. is an AI startup that does investment management to generate alpha in market sectors.",
-        "Applied Deep Learning technologies in Investment Management to outperform the benchmark on a risk-adjusted basis while identifying new alpha drivers. (Benchmark: Russel 1000 Index)",
-    ],
-  },
-  "Bioinformatics Research Intern at Neuberg Supratech Reference Laboratories": {
-    Duration: "May 2020 - Dec 2020",
+  "Machine Learning Intern at Ovenue Inc.": {
+    Duration: "Jan 2021 - April 2021",
     points: [
-      "Performed microbiome analysis from raw DNA sequencing data (FASTA and FASTQ files) using QIIME 2 tool.",
-      "Used genomic data for drawing clinicopathological correlations between cancers and other pathological conditions.",
-  ],
+      "Ovenue Inc. is an AI startup that does investment management to generate alpha in market sectors.",
+      "Applied Deep Learning algorithms in Investment Management to outperform the benchmark (Russell 1000 Index) by 28 percentage points on a risk-adjusted basis while identifying new alpha drivers.)",
+      "Automated data processing jobs like outlier detection and feature selection to reduce wait time by 1.5 hours a day.",
+    ],
   },
+  "Bioinformatics Research Intern at Neuberg Supratech Reference Laboratories":
+    {
+      Duration: "May 2020 - Dec 2020",
+      points: [
+        "Performed microbiome analysis from raw DNA sequencing data (FASTA and FASTQ files) using QIIME 2 tool.",
+        "Used genomic data for drawing clinicopathological correlations between cancers and other pathological conditions.",
+      ],
+    },
 };
