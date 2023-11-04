@@ -1,5 +1,6 @@
 /** @format */
 
+
 export const Data = {
   "Data Science Intern at Amazon": {
     Duration: "June 2023 - Sep 2023",
