@@ -1,6 +1,16 @@
 /** @format */
 
 export const Data = {
+  "Data Science Intern at Amazon": {
+    Duration: "June 2023 - Sep 2023",
+    points: [
+      "Authored and presented an Amazon insights paper to senior Amazon leadership on identifying regions of hallucination using deep learning models like autoencoders.",
+      "Built random forest, autoencoders using TensorFlow, Spark, AWS to classify 52M+ Alexa utterances, thereby identifying hallucination in LLMs as the root cause of error in Alexa’s LLMs.",
+      "Engineered & deployed machine learning pipelines with Python, Spark, AWS, classifying 52M+ Alexa utterances; identified hallucinations in Large Language Models (LLMs) as primary source of error in Alexa's responses.",
+      "Optimized SQL queries on 30B+ rows, boosting efficiency by 50% with join operations on sort, dist keys.",
+      "Collaborated and communicated with 20+ stakeholders with varying technical knowledge daily.",
+    ],
+  },
   "Data Science Intern at Ruby Inc.": {
     Duration: "June 2022 - Aug 2022",
     points: [
